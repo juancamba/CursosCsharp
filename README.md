@@ -66,4 +66,4 @@ Se crean tests unitarios y de integración
 
 [Ir a la carpeta local del curso](./CarRentalApi3.Hexagonal)
 
-[Video en youtube de este curso](https://youtu.be/Wwww3lPtGbA)
+[Video en youtube de este curso](https://youtu.be/JG7OX8IoL6w)
