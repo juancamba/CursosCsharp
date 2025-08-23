@@ -1,0 +1,29 @@
+@CarRentalApi3.Hexagonal.Api_HostAddress = http://localhost:5091
+
+###
+### Reserve Rental
+POST {{CarRentalApi3.Hexagonal.Api_HostAddress}}/api/Rentals/reserve
+Content-Type: application/json
+
+{
+	"carId": "166E2030-181A-494B-9BBF-44A43B1613DD",
+	"userId": "5610C663-B49C-41B8-8D1E-AE007C017D2E",
+	"startDate": "2025-08-22",
+	"endDate": "2025-08-23"
+}
+
+###
+GET {{CarRentalApi3.Hexagonal.Api_HostAddress}}/api/users
+Accept: application/json
+###
+
+GET {{CarRentalApi3.Hexagonal.Api_HostAddress}}/api/users/8DEDB327-D2A1-4442-B277-90B572C0E80C
+Accept: application/json
+###
+POST {{CarRentalApi3.Hexagonal.Api_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+    "username": "Maria Lopez",
+    "email": "maria@email.com"
+}

@@ -60,3 +60,10 @@ Se crean tests unitarios y de integración
 [Ir a la carpeta local del curso](./CarRentalApi2)
 
 [Video en youtube de este curso](https://youtu.be/EzluBRt2eNY)
+
+# Refactoring del Api CarRental a Arquitectura Hexagonal
+
+
+[Ir a la carpeta local del curso](./CarRentalApi3.Hexagonal)
+
+[Video en youtube de este curso](https://youtu.be/EzluBRt2eNY)

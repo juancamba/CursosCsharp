@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+<PropertyGroup>
+  <PreserveCompilationContext>true</PreserveCompilationContext>
+  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.2" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="9.0.8" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="moq" Version="4.20.72" />
+    <PackageReference Include="Testcontainers.MsSql" Version="4.6.0" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\CarRentalApi3.Hexagonal.Application\CarRentalApi3.Hexagonal.Application.csproj" />
+    <ProjectReference Include="..\..\src\CarRentalApi3.Hexagonal.Infrastructure\CarRentalApi3.Hexagonal.Infrastructure.csproj" />
+     <ProjectReference Include="..\..\src\CarRentalApi3.Hexagonal.Api\CarRentalApi3.Hexagonal.Api.csproj" />
+  </ItemGroup>
+
+</Project>
